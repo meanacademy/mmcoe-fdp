@@ -1,0 +1,36 @@
+NodeJS?
+    it is a cross platform runtime environment for executing JavaScript code outside of a Browser.
+    It is not a programming language or framework
+    It is an open source
+    It is mostly used for backend development or API creation
+
+Why NodeJS?
+    it is ideal for highly scalable environments, data intensive and real time applications.
+    it is superfast for building api and applications
+    It supports large open source libraries
+    it has a large community
+    it is single threaded
+
+Installation
+    visit : https://nodejs.org/en/
+
+Node Modules:
+    in moudle we are having more than one files in a single project
+    so these files can be import or export to access in entire application
+
+    to export file:
+        moudle.export = {}
+
+    to import file:
+        require ('export file name')
+
+    NodeJS Module Wrapper Function
+        (function(exports, require, moudle, __filename, __dirname){
+            
+        })
+    Built in Modules
+        path
+        url
+        fs
+        http
+        *to include built in moudle use require('built-in moudle name')

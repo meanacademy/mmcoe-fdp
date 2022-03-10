@@ -1,0 +1,90 @@
+NoSQL 
+    It stands for Not Only SQL or No SQL
+    It dont have any structural for database
+
+Types of NoSQL Databases
+    1. Document
+        MongoDB, CouchDB, CosmosDB
+    2. Key-Value
+        Redis, DynamoDB
+    3. Wide-Column
+        Cassandra, HBase
+    4. Graph
+        Neo4j
+
+Vertically Scalable vs Horizontally Scalable
+    Vertical Scaling means, scale by ading more power (RAM, HDD, CPU, etc. ) to an exiting machine
+    Horizontal Scaling means, scale by adding more machines into our pool of resources
+
+
+MongoDB:
+    - MongoDB is a  NoSQL Database
+    - It is also called as Document oriented database
+    - it is built or wirtten in C++
+    - for web and mobile application development, use mongodb nosql database
+    - it stores data in json-like document
+
+JSON:
+    JavaScript Object Notation
+    let user  = {
+        "name": "Mahesh Bodhgire",
+        "address": "Pune",
+        "contact": 7507406161,
+        "email": "maheshbodhgire@ecorie.in"
+    }
+
+    *MongoDB stores data in BSON format, not exactly JSON format
+        BSON - Binary JSON
+
+Setup / Installation:
+    visit - https://www.mongodb.com/try/download/community
+    download and install the respective setup file for your system.
+    
+Start with MongoDB:
+    1. Start MongoDB Server - mongod
+    2. Connet with mongodb server with mongodb client - mongo
+
+    *with mongo command - we can start with mognodb shell
+
+MongoDB Shell:
+    - MognoDB Shell is based on JavaScript
+    - It supports ES6 (Advance JS)
+
+    It comes with JavaScript Engine (Converting JS code into Machine code)
+    to check JavaScript Engine enter the command
+        iterpreterVersion();
+
+Terminology:
+    MySQL           MongoDB
+    database        database
+    table           collection
+    record/row      document
+    col/field       field
+    indexing        indexing
+    aggregation     aggregation
+
+Data Type (BSON Types):
+    1. string       ""
+    2. Integer      NumberInt() / NumberLong()
+    3. Array        []
+    4. Boolean      true / false
+    5. Double       0.0
+    6. Object       {}
+    7. Date         ISODate()
+    8. ObjectID     ObjectId()
+
+_id: 
+    Mandatory field 
+    it can create manually
+    by default it been creted automatically
+
+ObjectId:
+    this is a default value for the _id;
+    ObjectI is a 12-Bytes in size
+
+    the first four bytes - timestamp
+    the next three bytes -machine identifier
+    the next two bytes - process id
+    the last three bytes - counter
+
+    

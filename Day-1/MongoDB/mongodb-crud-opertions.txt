@@ -1,0 +1,64 @@
+To insert or ad document into a collection:
+    1. insetOne(obj)
+        documentObj = {
+
+        }
+        ex: 
+        depat ={
+            "departmentName":"IT",
+            "hod": "Dr. Vijaykumar Bidve",
+            "contact" : 9876564310
+        }
+
+        db.collectionName.insertOne(documentObj)
+    2. insertMany([obj])
+        documentObj = [{}, {}, {}, {}, {}, {}, {}, {}, {}]
+        ex.: 
+        documentObj = {
+
+        }
+        ex: 
+        depat = [{
+            "departmentName":"ENTC",
+            "hod": "Dr. ABC XYZ",
+            "contact" : 655678678
+        }, {
+            "departmentName":"CSE",
+            "hod": "Dr. PQR KLM",
+            "contact" : 908904542
+        }]
+        db.collectionName.insertMany()
+
+To Find the document/s
+    1.find(filter) - get all the documents
+        db.collectionName.find(filter) - get all the documents
+        
+    2.findOne(filter) - get single document
+        db.collectionName.findOne()
+        
+    Filter - condition/clause which is an optional
+
+To update the document/s
+    
+    updateOne(filter, updatedoc, options)
+       db.itdept.updateOne(
+            {
+                _id: ObjectId("62298e02d3cb923494792466")
+            }, 
+            {
+                $set: {"departmentName" : "CSE"}
+            }
+            )
+    updateMany(filter, updatedoc, options)
+        db.itdept.updateMany(
+            {},
+            {
+                $set: {"departmentName" : "IT"}
+            }
+            )
+
+To Delete Document
+    deleteOne(filter)
+        db.itdept.deleteOne({})
+    deleteMany(filter)
+        db.itdept.deleteMany({})

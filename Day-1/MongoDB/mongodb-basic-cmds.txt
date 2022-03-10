@@ -1,0 +1,15 @@
+1.List all the databases
+    show dbs;
+2. To create or swithch database
+    use db_name;
+    ex. - use mydb;
+    MongoDB create a database only if there is an existing collection is aavailable.
+    MongoDB never creates an empty database
+3. Get current Database name
+    db
+4. Crete a Collection
+    db.createCollection("collectionName")
+
+    *MognoDB methods or commands or queries always returns an object.
+5. Get list of collections
+    show collections;
