@@ -1,0 +1,33 @@
+Cloud Computing?
+    we can deliver the IT infrastructure such as servers, storages, database, networking, software, analytics, and intelligence over the internet which is cloud.
+
+    with cloud computing
+        we can reduce cost 
+        increase performance speed
+        high productivity
+        high reliablity
+        high security
+        gloval scaling
+
+Types of Cloud Computing
+    IaaS - Infrastructure as a service
+    PaaS - Platform as a service
+    SaaS - Software as a service
+    Serveless Computing
+
+AWS
+    Amazon Web Services
+    AWS provides 200 fully featured services to end user(developers, oraganizations)
+
+AWS Services 
+    AWS Compute services
+    Storage
+    Database
+    Sercurity
+    Analytics
+    Developer Tools
+    Deployment and Management
+    Mobile Services
+    IoT
+    Miagration
+    
