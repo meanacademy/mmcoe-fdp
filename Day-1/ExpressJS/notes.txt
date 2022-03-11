@@ -1,0 +1,23 @@
+REST API ?
+    - REpresentional State Transfer Application Programming Interface
+
+ExpressJS
+    - Free and Open Source
+    - It is a web framework for NodeJS
+    - we can create single page, multi page or hybrid page using expressJs
+    - it is lightweight and organized MVC architecture
+    - it sis good and high performance for the application
+    - it is faster server side development
+
+Installation
+    npm install express
+    or
+    npm i express
+
+MVC Architecture
+    Model
+        Structure of an Application
+    View
+        End User Display /HTML content
+    Controller
+        Business Logic

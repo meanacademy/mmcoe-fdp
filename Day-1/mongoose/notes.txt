@@ -1,0 +1,12 @@
+Mongoose?
+    - mongoose is elegant mongodb object modeling for Nodejs
+    - with mongoose writing mognodb validations, casting and business logic is very simple ande easy
+    - it includes built-in type casting, validations, query building and business logic hooks
+
+Installation
+    npm install mongoose
+    or
+    npm i mongoose
+
+*to start with nodejs project we have to use command 
+    npm init
