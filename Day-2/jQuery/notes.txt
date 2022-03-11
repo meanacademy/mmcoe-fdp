@@ -1,0 +1,38 @@
+Mobile-First?
+    Responsivness
+    "Designing and developing user experience or user interface for mobile devices before desinging for desktop web or other devices is known as 'Mobile-First' approach."
+
+Mobile Devices?
+    Smartphones
+    Tablets
+    e-Readers
+    Smart Watches
+    etc...
+
+jQuery Mobile?
+    It is a framework for desinging mobile web.
+    It is open-source and cross-platform
+    It comes with UI widgets
+
+jQuery Mobile Framework Features
+    - Responsiveness
+    - Lightweight in size (40kb in minified files)
+    - accessibility
+    - Themeing and UI widgets
+    - Easy and Flexible to implement
+
+How to start with jQuery Mobile?
+    Use CDN or offline jquery mobile files
+    CDN - Content Delivery Network
+
+Roles?
+    page            It defines the page
+    header          It defines the header
+    footer          It defines the footer
+    content         It defines the content
+    navbar          It defines the navigation bar
+    button          It creates a button
+    listView        Mutiple item list content
+    dialog          It defines the dialog page
+
+    

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+  <body>
+      <div data-role="page" id="mainpage">
+          <div data-role="header">
+              <h1>Header</h1>
+          </div>
+          <div data-role="content">
+              <h2>Buy Book</h2>
+              <h2>Book Name: Web Application Development</h2>
+              <p>
+                <ul>
+                  <li>Book Pages: 500</li>
+                  <li>Book Author: Mr. Mahesh Bodhgire</li>
+                </ul>
+              </p>
+              <p>
+                <a href="#dailogbox" data-rel="dailog" data-role="button">Buy Book Now</a>
+              </p>
+          </div>
+          <div data-role="footer">
+              <h4>@copyright @abc inc.</h4>
+          </div>
+      </div>
+      <div data-role="page" id="dailogbox" data-dialog="true" >
+        <div data-role="header">
+          <h1>Confirm Buy?</h1>
+        </div>
+        <div data-role="content">
+          <h3>Are you sure to buy this book?</h3>
+          <p>Select Date:</p>
+          <input type="text" data-role="date">
+          <a href="#mainpage" data-role="button">Yes</a>
+          <a href="#mainpage" data-role="button">No</a>
+        </div>
+      </div>
+  </body>
+</html>
